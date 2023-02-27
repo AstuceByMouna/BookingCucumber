@@ -1,0 +1,70 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 138.811 s <<< FAILURE! - in TestSuite
+Options.CucumberRunnerTests.runScenario["Book first displayed hotel", "Book first displayed hotel"](1)  Time elapsed: 97.994 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=110.0.5481.178)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'MR_ACHOUR', ip: '192.168.43.239', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [042bef0d0b8fde98409d57737f94cf98, findElements {using=css selector, value=.ae1678b153 svg}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\tbena\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51913}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51913/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 042bef0d0b8fde98409d57737f94cf98
+
+Options.CucumberRunnerTests.runScenario["Book cheapest hotel in city", "Book cheapest hotel"](2)  Time elapsed: 97.995 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=110.0.5481.178)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'MR_ACHOUR', ip: '192.168.43.239', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [042bef0d0b8fde98409d57737f94cf98, findElements {using=css selector, value=.ae1678b153 svg}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\tbena\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51913}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51913/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 042bef0d0b8fde98409d57737f94cf98
+
+Options.CucumberRunnerTests.runScenario["Account creation", "Account creation"](3)  Time elapsed: 98.718 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=110.0.5481.178)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'MR_ACHOUR', ip: '192.168.43.239', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [042bef0d0b8fde98409d57737f94cf98, findElements {using=css selector, value=.ae1678b153 svg}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\tbena\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51913}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51913/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 042bef0d0b8fde98409d57737f94cf98
+
+Options.CucumberRunnerTests.runScenario["Book cheapest hotel in city", "Book cheapest hotel"](1)  Time elapsed: 36.734 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+TimedPromise timed out after 30000 ms
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'MR_ACHOUR', ip: '192.168.43.239', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e7c24036-389e-497e-9414-17c322914fae, get {url=https://www.booking.com/}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230214051806, moz:debuggerAddress: 127.0.0.1:56690, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24460, moz:profile: C:\Users\tbena\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:56690/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e7c24036-389e-497e-9414-17c322914fae
+
+Options.CucumberRunnerTests.runScenario["Book first displayed hotel", "Book first displayed hotel"](2)  Time elapsed: 36.876 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+TimedPromise timed out after 30000 ms
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'MR_ACHOUR', ip: '192.168.43.239', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ad8ce517-2953-418b-aa0d-9d4c00e8f274, get {url=https://www.booking.com/}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230214051806, moz:debuggerAddress: 127.0.0.1:62680, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 21740, moz:profile: C:\Users\tbena\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:62680/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ad8ce517-2953-418b-aa0d-9d4c00e8f274
+
+Options.CucumberRunnerTests.runScenario["Account creation", "Account creation"](3)  Time elapsed: 37.136 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+TimedPromise timed out after 30000 ms
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'MR_ACHOUR', ip: '192.168.43.239', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [c1063611-1418-46c8-8a2f-aec61e3b1167, get {url=https://www.booking.com/}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230214051806, moz:debuggerAddress: 127.0.0.1:58692, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9972, moz:profile: C:\Users\tbena\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:58692/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c1063611-1418-46c8-8a2f-aec61e3b1167
+

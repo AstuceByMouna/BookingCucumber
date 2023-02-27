@@ -1,0 +1,7 @@
+PagesObjects\passwordPage.class
+generic\GenericMethods.class
+PagesObjects\manageAccountsPage.class
+generic\Constants.class
+PagesObjects\signUpPage.class
+PagesObjects\homePage.class
+PagesObjects\personalDetailsPage.class
